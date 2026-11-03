@@ -1,0 +1,1 @@
+{"content":"@echo off\r\necho Restoring Windows Search Indexer...\r\nsc config WSearch start=delayed-auto >nul 2>&1\r\nnet start WSearch >nul 2>&1\r\necho Windows Search Indexing restored. It may take a few minutes to rebuild the index.\r\npause","sig":"VvQqlMDYAC/blU6JgIS1eD5aBOSMedP0F5tq5aRfw6PouKfavwqxwQMCNrDLXDmCdf7UJevMFdwa0CLYV7QzCw=="}
